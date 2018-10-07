@@ -1,4 +1,4 @@
-# flowcar
+# FlowCAr
 Flow Network Construction and Assessment in R
 
 Network modelling requires a cogent, standardised methodology for the vital construction phase

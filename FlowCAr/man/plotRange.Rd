@@ -43,17 +43,17 @@ Chosen point type for the points representing the restricted LIM iterations, def
 Boolean. If TRUE will add a legend to the top right of the figure.
 }
 \item{...}{
-A list of arguments outlined in \code{\link{LIM::Plotranges}}
+A list of arguments outlined in \code{\link[LIM]{Plotranges}}
 }
 }
 
 \examples{
 plotRange(limfile = N4,limList = N4LIM,legend = TRUE,xlab ="Flow Range Value")
-OR after (\code{\link{enaListGen}}) has been used
+OR after \code{\link{enaListGen}} has been used
 plotRange(limfile = N4List$N4,limList = N4List$N4LIM,legend = TRUE,xlab ="Flow Range Value")
-After Restrictions has been applied (\code{\link{flowLimit}})
+After Restrictions has been applied \code{\link{flowLimit}}
 plotRange(limfile = N4,limList = N4LIM,limListLimit = N4LIMv,legend = TRUE,xlab ="Flow Range Value")
-OR (\code{\link{enaListGen}}) has been used
+OR \code{\link{enaListGen}} has been used
 plotRange(limfile = N4List$N4,limList = N4List$N4LIM,limListLimit = N4LIMv,legend = TRUE,xlab ="Flow Range Value")
 }
 \value{

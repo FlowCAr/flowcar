@@ -1,7 +1,6 @@
 limListGen <- function(limfile,...)
 {
-  require(LIM)
-  require(enaR)
+
   cat("Generating Networks
 ")
 

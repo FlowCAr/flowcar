@@ -4,7 +4,7 @@ Title: Flow Network Construction and Analysis
 Version: 1.0
 Author: Ruchit Mahabir, Christopher Waspe, Ursula Scharler
 Depends: R (>= 3.1.0)
-Imports: LIM, limSolve
+Imports: LIM, limSolve, enaR
 Maintainer: Ruchit Mahabir <mahabir.ruchit@gmail.com>, Christopher Waspe <waspe60@gmail.com>
 Description: FlowCAr is used to create a list of possible networks solved using LIM and restructuring this list, enabling ENA to be performed on the flow network in R package enaR.
 License: GPL-3

@@ -24,8 +24,7 @@ The node in which out-flows are required to be plotted.
 The amount of bins that splits the axis
 }
 }
-\details{
-}
+
 \value{
 A graphical plot
 
@@ -34,23 +33,14 @@ The example code will produce the following plot:
 \figure{image3.jpeg}{options:  width=560  height=254}
 
 }
-\references{
-}
+
 \author{
 Ruchit Mahabir
 Christopher Waspe
 Ursula Scharler}
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 plotNodeFlows(limfile = N4, limList = N4LIM, flowfrom = “INVERTEBRATE”)
 OR
 plotNodeFlows(limfile = N4List$N4, limList = N4List$N4LIM, flowfrom = “INVERTEBRATE”)
 }
-
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

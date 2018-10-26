@@ -47,7 +47,11 @@ This function does no calculations and is not a necessity in order to proceed wi
 ## A simple four node network                                 ##
 ##------------------------------------------------------------##
 
-LIM4Node <- LIMbuild (Rfile = "4node.r")
+  wd <- getwd()
+  setwd(paste(system.file(package = "FlowCAr"), "/doc/examples", sep = ""))
+  LIM4Node <- LIMbuild (Rfile = "4node.R")
+  setwd(wd)
+
 
 
 }

@@ -61,5 +61,3 @@ viableNodesMaxTest <- nodeViability(limfile = N4,limList = N4LIM,flow = "pp->inv
 
 }
 
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

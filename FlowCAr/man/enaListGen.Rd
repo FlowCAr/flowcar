@@ -57,8 +57,7 @@ A list containing three objects
 
 [[3]] The list of enaR network objects
 }
-\references{
-}
+
 \author{
 Ruchit Mahabir
 

@@ -1,7 +1,6 @@
 \name{enaListGen}
 \alias{enaListGen}
 \title{
-%%  ~~function to do ... ~~
 A one step method which creates a list of the limfile, list of LIM networks and list of packed enaR entwork objects.
 }
 \description{
@@ -48,8 +47,7 @@ Parameters avaliable through the use of the \code{\link[limSolve]{xsample}} func
 }
 
 }
-\details{
-}
+
 \value{
 A list containing three objects
 
@@ -67,12 +65,7 @@ Ruchit Mahabir
 Christopher Waspe
 
 Ursula Scharler}
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 #All steps in one
 N4list <- enaListGen("4node.R", limName = "lim4",
@@ -84,5 +77,4 @@ N4list <- enaListGen(limfile = N4,limList = N4LIM, enaListName = "ena4")
 N4list <- enaListGen(limfile = N4,limListName = "lim4node",enaListName = "ena4",
                        iter = 10000, jmp = NULL)
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }
+

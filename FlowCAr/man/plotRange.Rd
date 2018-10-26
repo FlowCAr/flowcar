@@ -47,9 +47,6 @@ A list of arguments outlined in \code{\link{Plotranges}}
 }
 }
 
-\details{
-
-}
 \examples{
 plotRange(limfile = N4,limList = N4LIM,legend = TRUE,xlab ="Flow Range Value")
 OR after (\code{\link{enaListGen}}) has been used
@@ -71,9 +68,7 @@ After restriction
 \figure{image9.jpeg}{options:  width=560  height=254}
 
 }
-\references{
 
-}
 \author{
 Ruchit Mahabir
 
@@ -81,8 +76,7 @@ Christopher Waspe
 
 Ursula Scharler
 }
-\note{
-}
+
 \seealso{
 \code{\link{Plotranges}}
 }

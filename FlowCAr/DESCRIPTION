@@ -10,6 +10,5 @@ Description: FlowCAr is used to create a list of possible networks solved using 
 License: GPL-3.0
 Encoding: UTF-8
 LazyData: true
-Suggests: knitr,
-    rmarkdown
+Suggests: knitr
 VignetteBuilder: knitr

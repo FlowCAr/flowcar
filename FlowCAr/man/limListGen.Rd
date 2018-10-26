@@ -61,5 +61,3 @@ Var4Node <- limListGen(limfile = N4, iter = 10000, jmp = 1)
 
 
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

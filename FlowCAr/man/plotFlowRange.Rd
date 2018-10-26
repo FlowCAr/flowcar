@@ -22,8 +22,7 @@ The desired node name
 Values depicted in \code{\link[graphics]{plot}}
 }
 }
-\details{
-}
+
 \value{
 A graphical plot
 
@@ -40,16 +39,9 @@ Ruchit Mahabir
 Christopher Waspe
 
 Ursula Scharler}
-\note{
-}
 
-\seealso{
-}
 \examples{
 plotFlowRange(limList = N4LIM,flow = “InvCon”)
 OR
 plotFlowRange(limList = N4List$N4LIM,flow = “InvCon”)
 }
-
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

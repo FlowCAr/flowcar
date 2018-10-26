@@ -42,9 +42,6 @@ Ursula Scharler
 This function does no calculations and is not a necessity in order to proceed with the preparing of ENA network objects in this package.
 }
 
-
-\seealso{
-}
 \examples{
 ##------------------------------------------------------------##
 ## A simple four node network                                 ##
@@ -54,5 +51,3 @@ LIM4Node <- LIMbuild (Rfile = "4node.r")
 
 
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

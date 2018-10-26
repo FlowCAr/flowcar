@@ -3,8 +3,7 @@ Type: Package
 Title: Flow Network Construction and Analysis
 Version: 1.0
 Author: Ruchit Mahabir, Christopher Waspe, Ursula Scharler
-Depends: 
-R (>= 3.1.0)
+Depends: R (>= 3.1.0)
 Imports:
 LIM, 
 limSolve

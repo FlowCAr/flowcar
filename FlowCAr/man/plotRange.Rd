@@ -43,7 +43,7 @@ Chosen point type for the points representing the restricted LIM iterations, def
 Boolean. If TRUE will add a legend to the top right of the figure.
 }
 \item{...}{
-A list of arguments outlined in \code{\link{Plotranges}}
+A list of arguments outlined in \code{\link{LIM::Plotranges}}
 }
 }
 

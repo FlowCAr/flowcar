@@ -16,13 +16,7 @@ This is the user generated LIM file created for analysis purposes.
 
 }
 }
-\details{
-}
-\value{
 
-}
-\references{
-}
 \author{
 Ruchit Mahabir
 
@@ -30,14 +24,7 @@ Christopher Waspe
 
 Ursula Scharler
 }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 livingVecList <- livingVector(limfile = LIM4Node)
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

@@ -3,5 +3,4 @@ importFrom("graphics", "abline", "boxplot", "hist", "legend", "lines","par", "pl
 importFrom("stats", "density", "dnorm", "median", "sd")
 importFrom("utils", "setTxtProgressBar", "txtProgressBar")
 importFrom("LIM","Read","Setup","Xsample","Flowmatrix","Xranges","Plotranges","Ldei")
-importFrom("limSolve")
 importFrom("enaR","pack")

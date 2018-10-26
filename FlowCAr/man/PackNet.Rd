@@ -43,13 +43,7 @@ A vector of true and false values for living and non-living nodes in a network.
 
 }
 }
-\details{
-}
-\value{
 
-}
-\references{
-}
 \author{
 Ruchit Mahabir
 
@@ -57,12 +51,7 @@ Christopher Waspe
 
 Ursula Scharler
 }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 PackedNetworkObjectList <- PackNet(InternalFlowMatrices, inputVectorList, respVectorList, exportVectorList, outputVecList, biomassVecList, livingVecList)
 }

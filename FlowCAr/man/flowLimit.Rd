@@ -41,8 +41,7 @@ If certain flows need to be restricated due to some values not being correct, th
 
 [[2]] A list of LIM networks
 }
-\references{
-}
+
 \author{
 Ruchit Mahabir
 
@@ -50,12 +49,7 @@ Christopher Waspe
 
 Ursula Scharler
 }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 ##------------------------------------------------------------##
 ## A simple four node network                                 ##

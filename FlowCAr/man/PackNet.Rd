@@ -56,5 +56,3 @@ Ursula Scharler
 PackedNetworkObjectList <- PackNet(InternalFlowMatrices, inputVectorList, respVectorList, exportVectorList, outputVecList, biomassVecList, livingVecList)
 }
 
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

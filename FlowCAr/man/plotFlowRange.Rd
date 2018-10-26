@@ -31,8 +31,7 @@ The example code will produce the following plot:
 \figure{image4.jpeg}{options:  width=560  height=254}
 
 }
-\references{
-}
+
 \author{
 Ruchit Mahabir
 

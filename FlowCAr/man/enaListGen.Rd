@@ -67,13 +67,19 @@ Ursula Scharler}
 
 \examples{
 #All steps in one
-N4list <- enaListGen("4node.R", limName = "lim4",
-                    limListName = "ll4", enaListName = "ena4",storeAll = FALSE,
-                    flowCheck = FALSE, iter = 10000, jmp = NULL)
-#If the limfile and limList has been created
-N4list <- enaListGen(limfile = N4,limList = N4LIM, enaListName = "ena4")
-#If only the limfile has been created
-N4list <- enaListGen(limfile = N4,limListName = "lim4node",enaListName = "ena4",
-                       iter = 10000, jmp = NULL)
+#N4list <- enaListGen("4node.R", limName = "lim4",
+#                    limListName = "ll4", enaListName = "ena4",storeAll = FALSE,
+#                    flowCheck = FALSE, iter = 10000, jmp = NULL)
+    #creates the following object
+    
+N4list <-data(N4list)
+
+                
+###If the limfile and limList has been created
+#N4LIM <- data(N4LIM)
+#N4list <- enaListGen(limfile = N4,limList = N4LIM, enaListName = "ena4")
+###If only the limfile has been created
+#N4list <- enaListGen(limfile = N4,limListName = "lim4node",enaListName = "ena4",
+#                       iter = 10000, jmp = NULL)
 }
 

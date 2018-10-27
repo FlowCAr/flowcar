@@ -31,5 +31,6 @@ Christopher Waspe
 Ursula Scharler}
 
 \examples{
-	outputVecList <- outputVector(limfile = N4,expVec = exportVectorList,rspVev = respVectorList)
+	#outputVecList <- outputVector(limfile = N4,
+	#expVec = exportVectorList, rspVev = respVectorList)
 }

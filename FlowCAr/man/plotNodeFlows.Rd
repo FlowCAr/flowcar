@@ -40,7 +40,7 @@ Christopher Waspe
 Ursula Scharler}
 
 \examples{
-plotNodeFlows(limfile = N4, limList = N4LIM, flowfrom = “INVERTEBRATE”)
-OR
-plotNodeFlows(limfile = N4List$N4, limList = N4List$N4LIM, flowfrom = “INVERTEBRATE”)
+plotNodeFlows(limfile = N4, limList = N4LIM, flowfrom = "INVERTEBRATE")
+#OR
+plotNodeFlows(limfile = N4list$N4, limList = N4list$N4LIM, flowfrom = "INVERTEBRATE")
 }

@@ -5,7 +5,7 @@ Internal flowmatrix generation
 }
 \description{
 Generates a flow matrix using just the internal nodes of a network for the enaR network object.
-The output created will be a single list of mactices that holds the internal flows for each interation.
+The output created will be a single list of matrices that holds the internal flows for each interation.
 }
 \usage{
 internalFlowGen(limfile, limList)

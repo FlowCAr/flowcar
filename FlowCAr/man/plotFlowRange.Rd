@@ -40,7 +40,7 @@ Christopher Waspe
 Ursula Scharler}
 
 \examples{
-plotFlowRange(limList = N4LIM,flow = “InvCon”)
-OR
-plotFlowRange(limList = N4List$N4LIM,flow = “InvCon”)
+plotFlowRange(limList = N4LIM,flow = "pp->invertebrate")
+#OR
+plotFlowRange(limList = N4list$N4LIM,flow = "pp->invertebrate")
 }

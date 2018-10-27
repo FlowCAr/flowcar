@@ -7,7 +7,8 @@ A one step method which creates a list of the limfile, list of LIM networks and 
 The main function enaListGen produces a list which contains the limfile (created through \code{\link{LIMbuild}}), the list of LIM networks (created through \code{\link{limListGen}}) and the list of enaR network objects. The enaR network objects are created from a specified LIM input file, ready for use in enaR.
 }
 \usage{
-enaListGen(Rfile, limfile, limList, limName, limListName, enaListName, storeAll, flowCheck, ...)
+enaListGen(Rfile, limfile, limList, limName, limListName, enaListName, 
+           storeAll, flowCheck, ...)
 }
 \arguments{
   \item{Rfile}{

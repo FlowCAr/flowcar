@@ -49,12 +49,15 @@ A list of arguments outlined in \code{\link[LIM]{Plotranges}}
 
 \examples{
 plotRange(limfile = N4,limList = N4LIM,legend = TRUE,xlab ="Flow Range Value")
-OR after enaListGen function has been used
-plotRange(limfile = N4List$N4,limList = N4List$N4LIM,legend = TRUE,xlab ="Flow Range Value")
-After Restrictions has been applied (using flowLimit function)
-plotRange(limfile = N4,limList = N4LIM,limListLimit = N4LIMv,legend = TRUE,xlab ="Flow Range Value")
-OR enaListGen has been used
-plotRange(limfile = N4List$N4,limList = N4List$N4LIM,limListLimit = N4LIMv,legend = TRUE,xlab ="Flow Range Value")
+#OR after enaListGen function has been used
+plotRange(limfile = N4list$N4,limList = N4list$N4LIM,legend = TRUE,xlab ="Flow Range Value")
+#After Restrictions has been applied (using flowLimit function)
+#N4LIMv <- data(N4LIMv)
+#plotRange(limfile = N4,limList = N4LIM,
+#limListLimit = N4LIMv,legend = TRUE,xlab ="Flow Range Value")
+#OR enaListGen has been used
+#plotRange(limfile = N4list$N4,limList = N4list$N4LIM,
+#limListLimit = N4LIMv,legend = TRUE,xlab ="Flow Range Value")
 }
 \value{
 A graphical plot

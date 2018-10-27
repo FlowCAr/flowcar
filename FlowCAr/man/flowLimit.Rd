@@ -55,9 +55,12 @@ Ursula Scharler
 ## A simple four node network                                 ##
 ##------------------------------------------------------------##
 
-viableNodesRangeTest <- nodeViability(limfile = N4,limList = N4LIM,flow = "pp->invertebrate",minVal = 50, maxVal = 300)
-viableNodesMinTest <- nodeViability(limfile = N4,limList = N4LIM,flow = "pp->invertebrate",minVal = 50)
-viableNodesMaxTest <- nodeViability(limfile = N4,limList = N4LIM,flow = "pp->invertebrate",maxVal = 300)
+viableNodesRangeTest <- flowLimit(limfile = N4,limList = N4LIM,
+flow = "pp->invertebrate",minVal = 50, maxVal = 300)
+viableNodesMinTest <- flowLimit(limfile = N4,limList = N4LIM,
+flow = "pp->invertebrate",minVal = 50)
+viableNodesMaxTest <- flowLimit(limfile = N4,limList = N4LIM,
+flow = "pp->invertebrate",maxVal = 300)
 
 }
 

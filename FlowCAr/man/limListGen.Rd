@@ -51,13 +51,13 @@ NULL jmp values usually require more time.
 ## A simple four node network with 150 iterations and default jump size ##
 ##----------------------------------------------------------------------##
 
-Var4Node <- limListGen(limfile = N4, iter = 150)
+N4LIM <- limListGen(limfile = N4, iter = 150)
 
 ##---------------------------------------------------------------------##
 ## A simple four node network with 10000 iterations and jump size of 1 ##
 ##---------------------------------------------------------------------##
 
-Var4Node <- limListGen(limfile = N4, iter = 10000, jmp = 1)
+N4LIM <- limListGen(limfile = N4, iter = 10000, jmp = 1)
 
 
 }

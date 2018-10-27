@@ -1,7 +1,6 @@
 \name{LIMbuild}
 \alias{LIMbuild}
 \title{
-
 Setting up and checking the LIM file formatting
 }
 \description{
@@ -47,11 +46,12 @@ This function does no calculations and is not a necessity in order to proceed wi
 ## A simple four node network                                 ##
 ##------------------------------------------------------------##
 
-  wd <- getwd()
-  setwd(paste(system.file(package = "FlowCAr"), "/doc/examples", sep = ""))
-  LIM4Node <- LIMbuild (Rfile = "4node.R")
-  setwd(wd)
-
+  data(N4)
+  N4
+  
+  #Output generated using the following code
+  
+  ###LIM4Node <- LIMbuild (Rfile = "4node.R")
 
 
 }

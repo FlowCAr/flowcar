@@ -26,5 +26,5 @@ Ursula Scharler
 }
 
 \examples{
-livingVecList <- livingVector(limfile = LIM4Node)
+livingVecList <- livingVector(limfile = N4)
 }

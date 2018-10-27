@@ -53,6 +53,6 @@ Ursula Scharler
 }
 
 \examples{
-PackedNetworkObjectList <- PackNet(InternalFlowMatrices, inputVectorList, respVectorList, exportVectorList, outputVecList, biomassVecList, livingVecList)
+#PackedNetworkObjectList <- PackNet(internalflows, 
+#importsvec, respvec, exportsvec, outputsvec, biomassC, livingvec)
 }
-

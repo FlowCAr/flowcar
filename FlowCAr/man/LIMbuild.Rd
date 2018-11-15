@@ -51,7 +51,7 @@ This function does no calculations and is not a necessity in order to proceed wi
   
   #Output generated using the following code
   
-  ###LIM4Node <- LIMbuild (Rfile = "4node.R")
+  ###N4 <- LIMbuild (Rfile = "4node.R")
 
 
 }

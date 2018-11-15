@@ -73,7 +73,7 @@ Ursula Scharler}
 #                    flowCheck = FALSE, iter = 10000, jmp = NULL)
     #creates the following object
     
-N4list <-data(N4list)
+data(N4list)
 
                 
 ###If the limfile and limList has been created

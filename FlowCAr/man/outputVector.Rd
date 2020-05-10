@@ -22,27 +22,15 @@ A list containing all export vectors generated
 A list of all respiration vectors generated
 }
 }
-\details{
-}
-\value{
 
-}
-\references{
-}
 \author{
 Ruchit Mahabir
 
 Christopher Waspe
 
 Ursula Scharler}
-\note{
-}
 
-
-\seealso{
-}
 \examples{
-	outputVecList <- outputVector(limfile = N4,expVec = exportVectorList,rspVev = respVectorList)
+	#outputVecList <- outputVector(limfile = N4,
+	#expVec = exportVectorList, rspVev = respVectorList)
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

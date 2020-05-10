@@ -31,8 +31,7 @@ By using a food web LIM file that follows the required format,processing can be 
 Returned is a list of iterations each containing a matrix which is a single network model.
 Also returned is a dataframe of how the data is read and interpreted.
 }
-\references{
-}
+
 \author{
 Ruchit Mahabir
 
@@ -47,23 +46,18 @@ Generation times can differ depending on parameters applied and processing power
 NULL jmp values usually require more time.
 }
 
-
-\seealso{
-}
 \examples{
 ##----------------------------------------------------------------------##
 ## A simple four node network with 150 iterations and default jump size ##
 ##----------------------------------------------------------------------##
 
-Var4Node <- limListGen(limfile = N4, iter = 150)
+N4LIM <- limListGen(limfile = N4, iter = 150)
 
 ##---------------------------------------------------------------------##
 ## A simple four node network with 10000 iterations and jump size of 1 ##
 ##---------------------------------------------------------------------##
 
-Var4Node <- limListGen(limfile = N4, iter = 10000, jmp = 1)
+N4LIM <- limListGen(limfile = N4, iter = 10000, jmp = 1)
 
 
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

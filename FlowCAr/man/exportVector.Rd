@@ -20,13 +20,7 @@ The list of networks solved using LIM (\code{\link{limListGen}})
 
 }
 }
-\details{
-}
-\value{
 
-}
-\references{
-}
 \author{
 Ruchit Mahabir
 
@@ -34,14 +28,7 @@ Christopher Waspe
 
 Ursula Scharler
 }
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 	exportVectorList <- exportVector(limfile = N4, limList = N4LIM)
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

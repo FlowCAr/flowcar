@@ -1,7 +1,6 @@
 \name{LIMbuild}
 \alias{LIMbuild}
 \title{
-
 Setting up and checking the LIM file formatting
 }
 \description{
@@ -42,17 +41,17 @@ Ursula Scharler
 This function does no calculations and is not a necessity in order to proceed with the preparing of ENA network objects in this package.
 }
 
-
-\seealso{
-}
 \examples{
 ##------------------------------------------------------------##
 ## A simple four node network                                 ##
 ##------------------------------------------------------------##
 
-LIM4Node <- LIMbuild (Rfile = "4node.r")
+  data(N4)
+  N4
+  
+  #Output generated using the following code
+  
+  ###N4 <- LIMbuild (Rfile = "4node.R")
 
 
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

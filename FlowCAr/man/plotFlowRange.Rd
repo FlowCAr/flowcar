@@ -22,8 +22,7 @@ The desired node name
 Values depicted in \code{\link[graphics]{plot}}
 }
 }
-\details{
-}
+
 \value{
 A graphical plot
 
@@ -32,24 +31,16 @@ The example code will produce the following plot:
 \figure{image4.jpeg}{options:  width=560  height=254}
 
 }
-\references{
-}
+
 \author{
 Ruchit Mahabir
 
 Christopher Waspe
 
 Ursula Scharler}
-\note{
-}
 
-\seealso{
-}
 \examples{
-plotFlowRange(limList = N4LIM,flow = “InvCon”)
-OR
-plotFlowRange(limList = N4List$N4LIM,flow = “InvCon”)
+plotFlowRange(limList = N4LIM,flow = "pp->invertebrate")
+#OR
+plotFlowRange(limList = N4list$N4LIM,flow = "pp->invertebrate")
 }
-
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

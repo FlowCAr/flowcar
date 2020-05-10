@@ -21,14 +21,7 @@ The list of networks solved using LIM (\code{\link{limListGen}})
 
 }
 }
-\details{
 
-}
-\value{
-
-}
-\references{
-}
 \author{
 Ruchit Mahabir
 
@@ -39,10 +32,6 @@ Ursula Scharler
 \note{
 If structured correctly, the respiration element is the first item in the Externals list.}
 
-\seealso{
-}
 \examples{
 respVectorList <-  respVector(limfile = N4 , limList = N4LIM)
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }

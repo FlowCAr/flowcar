@@ -1,7 +1,5 @@
 LIMbuild <- function(Rfile)
 {
- require(LIM)
-  require(enaR)
 
   mLIM <- Read(Rfile)
 

@@ -1,14 +1,14 @@
 \name{enaListGen}
 \alias{enaListGen}
 \title{
-%%  ~~function to do ... ~~
 A one step method which creates a list of the limfile, list of LIM networks and list of packed enaR entwork objects.
 }
 \description{
 The main function enaListGen produces a list which contains the limfile (created through \code{\link{LIMbuild}}), the list of LIM networks (created through \code{\link{limListGen}}) and the list of enaR network objects. The enaR network objects are created from a specified LIM input file, ready for use in enaR.
 }
 \usage{
-enaListGen(Rfile, limfile, limList, limName, limListName, enaListName, storeAll, flowCheck, ...)
+enaListGen(Rfile, limfile, limList, limName, limListName, enaListName, 
+           storeAll, flowCheck, ...)
 }
 \arguments{
   \item{Rfile}{
@@ -48,8 +48,7 @@ Parameters avaliable through the use of the \code{\link[limSolve]{xsample}} func
 }
 
 }
-\details{
-}
+
 \value{
 A list containing three objects
 
@@ -59,30 +58,29 @@ A list containing three objects
 
 [[3]] The list of enaR network objects
 }
-\references{
-}
+
 \author{
 Ruchit Mahabir
 
 Christopher Waspe
 
 Ursula Scharler}
-\note{
-}
 
-
-\seealso{
-}
 \examples{
 #All steps in one
-N4list <- enaListGen("4node.R", limName = "lim4",
-                    limListName = "ll4", enaListName = "ena4",storeAll = FALSE,
-                    flowCheck = FALSE, iter = 10000, jmp = NULL)
-#If the limfile and limList has been created
-N4list <- enaListGen(limfile = N4,limList = N4LIM, enaListName = "ena4")
-#If only the limfile has been created
-N4list <- enaListGen(limfile = N4,limListName = "lim4node",enaListName = "ena4",
-                       iter = 10000, jmp = NULL)
+#N4list <- enaListGen("4node.R", limName = "lim4",
+#                    limListName = "ll4", enaListName = "ena4",storeAll = FALSE,
+#                    flowCheck = FALSE, iter = 10000, jmp = NULL)
+    #creates the following object
+    
+data(N4list)
+
+                
+###If the limfile and limList has been created
+#N4LIM <- data(N4LIM)
+#N4list <- enaListGen(limfile = N4,limList = N4LIM, enaListName = "ena4")
+###If only the limfile has been created
+#N4list <- enaListGen(limfile = N4,limListName = "lim4node",enaListName = "ena4",
+#                       iter = 10000, jmp = NULL)
 }
-\keyword{ ~kwd1 }
-\keyword{ ~kwd2 }
+

@@ -8,7 +8,8 @@ Graphical representation of flow ranges and possible network flow values
 The plotRange function allows the user to generate a plot illustrating the range of each flow, the parsimonious solution for each flow, the average of the flow value calculated using the (\code{\link{limListGen}}) function, each iteration calculated using the (\code{\link{limListGen}}) function and the restricted flow values using the function (\code{\link{flowLimit}})
 }
 \usage{
-plotRange(limfile, limList, limListLimit, avcol, allcol, limitcol, avpch, allpch, limitpch, legend,...)
+plotRange(limfile, limList, limListLimit = NULL, legend, avcol="green", 
+          allcol="red", limitcol="blue", avpch=16, allpch=3, limitpch=3, ...)
 }
 
 \arguments{
@@ -43,21 +44,21 @@ Chosen point type for the points representing the restricted LIM iterations, def
 Boolean. If TRUE will add a legend to the top right of the figure.
 }
 \item{...}{
-A list of arguments outlined in \code{\link{Plotranges}}
+A list of arguments outlined in \code{\link[LIM]{Plotranges}}
 }
 }
 
-\details{
-
-}
 \examples{
 plotRange(limfile = N4,limList = N4LIM,legend = TRUE,xlab ="Flow Range Value")
-OR after (\code{\link{enaListGen}}) has been used
-plotRange(limfile = N4List$N4,limList = N4List$N4LIM,legend = TRUE,xlab ="Flow Range Value")
-After Restrictions has been applied (\code{\link{flowLimit}})
-plotRange(limfile = N4,limList = N4LIM,limListLimit = N4LIMv,legend = TRUE,xlab ="Flow Range Value")
-OR (\code{\link{enaListGen}}) has been used
-plotRange(limfile = N4List$N4,limList = N4List$N4LIM,limListLimit = N4LIMv,legend = TRUE,xlab ="Flow Range Value")
+#OR after enaListGen function has been used
+plotRange(limfile = N4list$N4,limList = N4list$N4LIM,legend = TRUE,xlab ="Flow Range Value")
+#After Restrictions has been applied (using flowLimit function)
+#N4LIMv <- data(N4LIMv)
+#plotRange(limfile = N4,limList = N4LIM,
+#limListLimit = N4LIMv,legend = TRUE,xlab ="Flow Range Value")
+#OR enaListGen has been used
+#plotRange(limfile = N4list$N4,limList = N4list$N4LIM,
+#limListLimit = N4LIMv,legend = TRUE,xlab ="Flow Range Value")
 }
 \value{
 A graphical plot
@@ -71,9 +72,7 @@ After restriction
 \figure{image9.jpeg}{options:  width=560  height=254}
 
 }
-\references{
 
-}
 \author{
 Ruchit Mahabir
 
@@ -81,8 +80,7 @@ Christopher Waspe
 
 Ursula Scharler
 }
-\note{
-}
+
 \seealso{
 \code{\link{Plotranges}}
 }
